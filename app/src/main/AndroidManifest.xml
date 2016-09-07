@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Helppage"
+            android:name=".HelpPage"
             android:label="@string/appmedis_helppage_title"
             android:parentActivityName=".MainPage"
             android:theme="@style/AppTheme.NoActionBar">

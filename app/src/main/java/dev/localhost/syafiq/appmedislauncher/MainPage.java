@@ -3,7 +3,6 @@ package dev.localhost.syafiq.appmedislauncher;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -11,7 +10,6 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageSwitcher;
@@ -170,7 +168,7 @@ public class MainPage extends AppCompatActivity
 
     public void onToolbarHelpMenuPressed()
     {
-        final Intent intent = new Intent(this, Helppage.class);
+        final Intent intent = new Intent(this, HelpPage.class);
         super.startActivity(intent);
     }
 
