@@ -4,9 +4,8 @@ apply plugin: 'android-apt'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.1"
-
     defaultConfig {
-        applicationId "dev.localhost.syafiq.appmedislauncher"
+        applicationId 'id.ac.ub.filkom.kcv.se.appmedislauncher'
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
@@ -18,10 +17,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.1'
     compile 'com.android.support:design:24.1.1'
