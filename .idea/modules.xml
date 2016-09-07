@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AppMedisLauncher.iml" filepath="$PROJECT_DIR$/AppMedisLauncher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LabKCV_AppMedisLauncher.iml" filepath="$PROJECT_DIR$/LabKCV_AppMedisLauncher.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lab_KCV_AppMedisLauncher.iml" filepath="$PROJECT_DIR$/Lab_KCV_AppMedisLauncher.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
