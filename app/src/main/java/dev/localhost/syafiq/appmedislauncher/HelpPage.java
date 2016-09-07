@@ -13,6 +13,7 @@ public class HelpPage extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
+        int a;
         super.onCreate(savedInstanceState);
         super.setContentView(R.layout.appmedis_launcher_helppage_container);
         final Toolbar toolbar = (Toolbar) findViewById(R.id.appmedis_helppage_toolbar);
