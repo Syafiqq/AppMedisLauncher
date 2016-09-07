@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-public class Helppage extends AppCompatActivity
+public class HelpPage extends AppCompatActivity
 {
 
     @Override
@@ -30,7 +30,7 @@ public class Helppage extends AppCompatActivity
                 @Override
                 public void onClick(View v)
                 {
-                    Helppage.this.onBackButtonPressed();
+                    HelpPage.this.onBackButtonPressed();
                 }
             });
         }
